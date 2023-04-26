@@ -1,0 +1,63 @@
+body{
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+
+#container{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #c629c9;
+    transition: ease 0.5s;
+    margin: 20px 20px 80px 20px;
+}
+
+
+
+.butt1{
+    background-image: url(imgs/malphite.jpg);
+    background-size: 200px 200px;
+    padding: 0;
+    border: 0;
+
+}
+.butt2{
+    background-image: url(imgs/paper.jpg);
+    background-size: 200px 200px;
+    padding: 0;
+    border: 0;
+
+}
+.butt3{
+    background-image: url(imgs/gwen.jpg);
+    background-size: 200px 200px;
+    padding: 0;
+    border: 0;
+
+}
+
+.text{
+    
+    text-align: start;
+    color: black;
+    font-size: 40px;
+}
+#texto, #texto2{
+    margin: 15px 300px;
+}
+.active{
+    height: 250px;
+    width: 250px;
+    transition: ease 0.4s;
+    background-size: 250px 250px;
+    margin: 20px 0px 20px 0px;
+}
+
