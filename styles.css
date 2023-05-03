@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
 body{
-background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+background-image:url('./imgs/background.jpg');
+background-size: cover;
+background-position: -100%;
 
 }
 
@@ -11,53 +15,63 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
 button{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     font-size: 25px;
     color: #c629c9;
     transition: ease 0.5s;
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 60px 20px;
+    box-shadow: 0px 0px 12px black;
+    
 }
 
 
 
 .butt1{
-    background-image: url(imgs/malphite.jpg);
-    background-size: 200px 200px;
+    background-image: url(imgs/Rock.webp);
+    background-size: 150px 150px;
     padding: 0;
     border: 0;
+    
 
 }
 .butt2{
-    background-image: url(imgs/paper.jpg);
-    background-size: 200px 200px;
+    background-image: url(imgs/Paper.webp);
+    background-size: 150px 150px;
     padding: 0;
     border: 0;
 
 }
 .butt3{
-    background-image: url(imgs/gwen.jpg);
-    background-size: 200px 200px;
+    background-image: url(imgs/Scissors2.webp);
+    background-size: 150px 150px;
     padding: 0;
     border: 0;
 
 }
 
 .text{
+    font-family: 'Bruno Ace SC', cursive;
     
     text-align: start;
     color: black;
     font-size: 40px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 5px black;
 }
 #texto, #texto2{
-    margin: 15px 300px;
+    margin: 0px 00px;
+    text-align-last: center;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 2px 2px 5px black;
+
 }
 .active{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     transition: ease 0.4s;
-    background-size: 250px 250px;
-    margin: 20px 0px 20px 0px;
+    background-size: 200px 200px;
+    margin: 10px 0px ;
 }
 

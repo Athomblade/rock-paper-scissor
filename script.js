@@ -82,7 +82,7 @@ buttons.forEach((button) => {
             playpontos.textContent = `Player Score: ${p}`;
             pcpontos.textContent = `Computer Score: ${comp}`;
         }else if(comp == 5){
-            result.textContent = "You Lost the game:/ Maybe find something else to do?"
+            result.textContent = "You Lost the game:/"
             p = 0;
             comp = 0;
             playpontos.textContent = `Player Score: ${p}`;
